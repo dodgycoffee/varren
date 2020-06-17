@@ -2,7 +2,7 @@ const gulp          = require('gulp');
 const sass          = require('gulp-sass');
 const sassGlob      = require('gulp-sass-glob');
 const imagemin      = require('gulp-imagemin');
-const uglify        = require('gulp-uglify');
+const uglify        = require('gulp-uglify-es').default;
 const sourcemaps    = require('gulp-sourcemaps');
 
 const path = {
