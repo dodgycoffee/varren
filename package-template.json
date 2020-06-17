@@ -1,0 +1,23 @@
+{
+    "name": "varren-project",
+    "version": "1.0.0",
+    "description": "Built from dodgycoffee/varren",
+    "scripts": {
+
+    },
+    "author": "varren",
+    "license": "ISC",
+    "dependencies": {
+        "fs-extra": "^9.0.1",
+        "gulp": "^4.0.2",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-sass-glob": "^1.1.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2",
+        "normalize-scss": "^7.0.1"
+    },
+    "devDependencies": {
+
+    }
+}
