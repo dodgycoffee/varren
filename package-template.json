@@ -2,11 +2,8 @@
     "name": "varren-project",
     "version": "1.0.0",
     "description": "Built from dodgycoffee/varren",
-    "scripts": {
-
-    },
     "author": "varren",
-    "license": "ISC",
+    "license": "Apache-2.0",
     "dependencies": {
         "fs-extra": "^9.0.1",
         "gulp": "^4.0.2",

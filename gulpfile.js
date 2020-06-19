@@ -38,7 +38,6 @@ function scss(cb) {
 
 function js(cb) {
     return gulp.src(path.js.src)
-        .pipe(sourcemaps.init())
         .pipe(uglify())
         .pipe(gulp.dest(path.js.dest));
     cb();
