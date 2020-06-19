@@ -31,14 +31,16 @@ function scss(cb) {
         .pipe(sourcemaps.init())
         .pipe(sassGlob())
         .pipe(sass())
-        .pipe(sourcemaps.write())
+        .pipe(sourcemaps.write('../css'))
         .pipe(gulp.dest(path.styles.dest));
     cb();
 }
 
 function js(cb) {
     return gulp.src(path.js.src)
+        .pipe(sourcemaps.init())
         .pipe(uglify())
+        .pipe(sourcemaps.write('../js/maps'))
         .pipe(gulp.dest(path.js.dest));
     cb();
 }
