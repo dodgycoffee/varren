@@ -47,7 +47,7 @@ function js(cb) {
 
 function optimiseImages() {
     return gulp.src(path.images.src)
-        .pipe(imagemin())
+        .pipe(imagemin({verbose: true}))
         .pipe(gulp.dest(path.images.dest));
 }
 
